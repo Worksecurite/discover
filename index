@@ -1,0 +1,15 @@
+echo "# discover" >> README.md 
+git init 
+git add README.md 
+git commit -m "first commit" 
+git branch -M main 
+git remote add origin https://github.com/Worksecurite/discover.git
+ git push - u origine principale
+                
+… Ou pousser un référentiel existant depuis la ligne de commande
+git remote add origin https://github.com/Worksecurite/discover.git
+ git branch -M main 
+git push -u origin main
+… Ou importer du code depuis un autre référentiel
+Vous pouvez initialiser ce référentiel avec le code d'un projet Subversion, Mercurial ou TFS.
+
